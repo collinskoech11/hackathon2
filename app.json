@@ -1,0 +1,12 @@
+{
+  "name": "hackathon2",
+  "displayName": "hackathon2",
+  "expo": {
+    "name": "hackathon2",
+    "slug": "hackathon2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
