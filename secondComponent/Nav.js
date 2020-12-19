@@ -1,13 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet} from 'react-native';
+import NavigationBar from 'react-native-navbar';
 
  
 
 export default function Nav  (){
   return (
-    <View style={styles.container}>
-      <Text >Nav Bar</Text>
-    </View>
+    <NavigationBar style={styles.container}/>
   );
 }
 
@@ -15,9 +14,6 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#000',
-      width:'10%',
-      alignItems: 'center',
-      justifyContent: 'center',
     },
   });
 
