@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LotsOfGreetings from './firstComponent/LotsOfGreetings';
-import Nav from './secondComponent/Nav'
+import Nav from './secondComponent/Nav';
 
  
 

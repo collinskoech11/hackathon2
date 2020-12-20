@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import styles from './SideMenu.style';
 import {NavigationActions} from 'react-navigation';
 import {ScrollView, Text, View} from 'react-native';
+import {StackNavigator} from 'react-navigation';
 
 class Nav extends Component {
   navigateToScreen = (route) => () => {
@@ -59,7 +60,7 @@ class Nav extends Component {
   }
 }
 
-SideMenu.propTypes = {
+Nav.propTypes = {
   navigation: PropTypes.object
 };
 
