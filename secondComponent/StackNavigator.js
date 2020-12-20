@@ -12,7 +12,7 @@ import IOSIcon from "react-native-vector-icons/Ionicons";
 import MainScreen from "./MainScreen";
 import DetailScreen from "./DetailScreen";
 
-const stackNav = StackNavigator({
+const stackNavigator = StackNavigator({
   Main : {
     screen: MainScreen,
     navigationOptions: ({navigation}) => ({
@@ -32,4 +32,4 @@ const stackNav = StackNavigator({
   }
 });
 
-export default stackNav;
+export default StackNavigator;
