@@ -6,13 +6,15 @@ import {
   StyleSheet,
   Button
 } from 'react-native';
+import {StackNavigator} from 'react-navigation';
 
 class MainScreen extends Component {
   render () {
     return (
       <View style={styles.container}>
         <Text>Main</Text>
-        <Button onPress={() => this.props.navigation.navigate("Detail")} title="Detail Page" />
+        <StackNavigator/>
+        <Button onPress={() => this.props.navigation.navigate("DetailScreen")} title="Detail Page" />
       </View>
     );
   }
