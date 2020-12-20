@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+import MainScreen from './secondComponent/MainScreen';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import LotsOfGreetings from './firstComponent/LotsOfGreetings';
@@ -11,8 +11,7 @@ export default function App  (){
     <View style={styles.container}>
       <Nav/>
       <LotsOfGreetings/>
-      <Text>Hello, world!</Text>
-      <StatusBar style="auto" />
+      <MainScreen/>
     </View>
   );
 }
